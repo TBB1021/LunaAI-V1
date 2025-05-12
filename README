@@ -1,0 +1,56 @@
+-------AAI Year 3 Final Project (LunaAI)-------
+Packages need:
+-SpeechRecognition*
+-OpenAI*
+-SpaCy*
+-en_core_web_md*
+-threading*
+-importlib
+-pathlib
+-glob
+-shutil
+-os
+-JSON
+-Kivy*
+-datetime
+-time
+-paramiko*
+-AudioPlayer*
+-Spotipy*
+-requests
+
+* May have to use PIP
+
+If the tester wishes to run the code:
+1)Change name of variables.env to .env
+2)Install plugins above
+3)Run program from main.py
+------Tester must have OAKey and LunaKey------
+If the tester wants to run Spotify plugin:
+1)alter the relevant values in the .env file
+2)follow the steps above
+3)follow the steps in terminal when take to authentication link
+------Due to spotify terms and conditions, certain aspects of the online developer app may need changing ------
+------May not be needed based on the .cache file, research suggest no authentication needed as long as the file is present------
+
+if the tester wishes to run Github Plugin or Weather plugin:
+repeats step in spotify plugin ignoring step 3
+
+if the tester wishes to add plugin feature:
+Friday.py is a fake pluggin to demostrate 
+1)Have Friday.py on a USB
+2)run the program
+3)press voice button or "Luna"
+4)wait for the status on the top right to change to listening
+5)"Add Plugin"
+6)wait till after response and say "Friday"
+------same process for Delete Plugin but instead of 5) say "delete plugin------
+
+If the tester wishes to test device communication:
+1)follow the steps in "If the tester wishes to run the code" 
+2)before step 3, alter the chosen pc device network to public and obtain the ip address, hostname and password
+3)alter the relevant values in the .env file
+4)uncomment line 6 and 121-136 of Luna Controller
+5)Run main.py
+----even if commented, Retrieve Response still creates a file if warrented.----
+-------AAI Year 3 Final Project (LunaAI)-------
