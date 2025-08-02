@@ -54,3 +54,28 @@ If the tester wishes to test device communication:
 5)Run main.py
 ----even if commented, Retrieve Response still creates a file if warrented.----
 -------AAI Year 3 Final Project (LunaAI)-------
+
+Luna is an experimental AI assistant designed to explore alternative models of human–AI interaction. Built as a lightweight, responsive assistant, Luna focuses on context-aware behaviour, user autonomy, and ethical AI principles. Developed as part of a broader research initiative comparing assistant performance, Luna is positioned as a contrast to more mainstream agents.
+
+Features
+Context-Aware Responses
+Luna adapts replies based on behavioural patterns, environmental data, and user history.
+
+Customisable Personality & Tone
+Modular personality profiles allow for tone and interaction style adjustments.
+
+Privacy-First Architecture
+Behavioural data is processed remotely with user-defined permissions and full transparency.
+
+Comparative Evaluation Tools
+Includes benchmarking features for testing Luna's performance against other assistants (e.g. Nira).
+
+🔧 Technologies Used
+Python / Node.js (backend logic and API handling)
+OpenAI assistants API
+
+License & Ethics
+Luna is an experimental assistant for research and prototyping purposes. All behavioural data used is anonymised and consent-driven.
+License: MIT (unless otherwise specified)
+Ethical use only. Luna should not be deployed in environments where safety, medical, or legal decisions depend on AI output.
+
